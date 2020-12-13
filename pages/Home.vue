@@ -13,15 +13,15 @@ export default {
       items: [{"name":"Home",
       "path":"/"},
       {"name":"About",
-      "path":"#/about"},
+      "path":"/about"},
       {"name":"Yoga",
-      "path":"#/yoga" },
+      "path":"/yoga" },
       {"name":"Pranayama",
-      "path":"#/pranayama"}],
+      "path":"/pranayama"}],
 
       cards: [
         {
-          img: require ("c:/users/swati/onedrive/desktop/lesson09/assets/images/yoga.jpg"),
+          img: require ("../assets/images/yoga.jpg"),
           title: "Karma Yoga",
           desc: "Karma yoga, also called Karma marga, is one of the three spiritual paths in Hinduism"
         },
@@ -49,7 +49,7 @@ export default {
 
 
 <template>
-  <div>
+  <div class="home">
     <div class="grid-container">
 
       <div class="header">
