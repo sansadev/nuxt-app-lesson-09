@@ -1,15 +1,15 @@
 <template>
  <article class="asana">
-	 <img :src="asana.pos" :alt="asana.name" class="card__img">
-	 <h2 class="card__title">{{ asana.name }}</h2>
-	 <p class="card__copy">{{ asana.procedure }}</p>
+	 <img :src="pose.img_url" :alt="pose.sanskrit_name" class="asana__img">
+	 <h2 class="asana__title">{{ pose.sanskrit_name }}</h2>
+	 <p class="asana__copy">{{ pose.english_name }}</p>
  </article>
 </template>
 
 <script>
 export default {
 	props: {
-		asana: Object
+		pose: Object
 	}
 }
 </script>

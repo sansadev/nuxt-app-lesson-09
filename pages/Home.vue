@@ -17,7 +17,9 @@ export default {
       {"name":"Yoga",
       "path":"/yoga" },
       {"name":"Pranayama",
-      "path":"/pranayama"}],
+      "path":"/pranayama"},
+       {"name":"Pose",
+      "path":"/pose"}],
 
       cards: [
         {
