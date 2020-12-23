@@ -4,11 +4,18 @@
 
 
 export default {
-
+ head: {
+    title: 'Yoga',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Learn About Yoga'
+      }
+    ],
+  },
   name: 'Yoga',
-
-  
-  data() {
+ data() {
 
     return {
 
@@ -19,7 +26,9 @@ export default {
       {"name":"Yoga",
       "path":"/yoga" },
       {"name":"Pranayama",
-      "path":"/pranayama"}
+      "path":"/pranayama"},
+       {"name":"Pose",
+      "path":"/pose"}
     ],
 
     panes: {

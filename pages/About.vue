@@ -35,7 +35,16 @@
 </template>
 <script>
 export default {
-
+head: {
+    title: 'Yoga',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Nature'
+      }
+    ],
+  },
 name: 'About',
 data() {
 return {
@@ -46,7 +55,9 @@ items: [{"name":"Home",
 {"name":"Yoga",
 "path":"/yoga" },
 {"name":"Pranayama",
-"path":"/pranayama"}
+"path":"/pranayama"},
+ {"name":"Pose",
+"path":"/pose"}
 ],
 
 

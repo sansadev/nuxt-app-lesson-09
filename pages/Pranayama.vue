@@ -3,7 +3,16 @@ import PictureDetail from '../components/PictureDetail.vue';
 
 
 export default {
-
+ head: {
+    title: 'Yoga',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Yogic Lifestyle'
+      }
+    ],
+  },
   name: 'Pranayama',
   components: {
    PictureDetail,
@@ -17,7 +26,9 @@ export default {
       {"name":"Yoga",
       "path":"/yoga" },
       {"name":"Pranayama",
-      "path":"/pranayama"}
+      "path":"/pranayama"},
+       {"name":"Pose",
+      "path":"/pose"}
     ],
     pictures: [
       {

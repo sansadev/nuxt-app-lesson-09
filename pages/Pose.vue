@@ -19,7 +19,7 @@
 <div>
 <main class="main">
 <div class="wrapper">
-    <h1 class="heading">Countries of Europe</h1>
+    <h1 class="heading">Asanas</h1>
     <section class="container" v-if="yogaposes">
         <asana
           v-for="pose of yogaposes"
@@ -53,12 +53,32 @@ import Asana from '../components/Asana.vue'
 import axios from 'axios'
 
 export default {
+  head: {
+    title: 'Yoga',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Asanas'
+      }
+    ],
+  },
     name: 'Pose',
   components: {
     Asana,
   },
   data() {
     return {
+       items: [{"name":"Home",
+      "path":"/"},
+      {"name":"About",
+      "path":"/about"},
+      {"name":"Yoga",
+      "path":"/yoga" },
+      {"name":"Pranayama",
+      "path":"/pranayama"},
+       {"name":"Pose",
+      "path":"/pose"}],
       loading: true,
       yogaposes: null,
       errored: false

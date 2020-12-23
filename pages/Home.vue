@@ -3,7 +3,16 @@ import Card from '../components/Card.vue';
 
 
 export default {
-
+head: {
+    title: 'Yoga',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Yoga Basics'
+      }
+    ],
+  },
   name: 'Home',
   components: {
     Card,
