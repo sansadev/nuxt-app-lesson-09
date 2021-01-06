@@ -1,0 +1,23 @@
+Search engine optimization (SEO) is the process of improving the quality and quantity of website traffic to a website or a web page from search engines. SEO targets unpaid traffic 
+(known as "natural" or "organic" results) rather than direct traffic or paid traffic. Unpaid traffic may originate from different kinds of searches, including image search, video search, 
+academic search, news search, and industry-specific vertical search engines.
+
+There are many ways we can make the website SEO friendly.
+Few tips are below
+ Tip 1. Search‐friendly article title. The title should be short and contain your keywords within the first 65 characters. If your title is long, consider moving part of it to the first 
+few sentences of the abstract.
+
+Tip 2. Optimize the abstract. The first two sentences are most important to search engines, so make them count; include your essential findings and keywords there. Repeat the keywords 
+3‐6 times in the abstract. Express your findings concisely.
+
+Tip 3. Repeat, repeat, repeat your keywords (but not too much). You've started by including them in the title and abstract. Now repeat them in your identified keywords on the manuscript 
+submission site, incorporate them into article headings, and use them in the text. Search engines actually penalize work for “keyword stuffing,” which can lead to removal of the work from 
+the search engine, so be cautious not to overdo it. Article headings are helpful to provide structure to your work and help the search engines find it, especially if they incorporate your
+ keywords.
+
+Tip 4. Consistent author names. Use authors’ names/initials consistently across time in published work; eg, keep the middle initial every time.
+
+Tip 5. Create links to your published article. Work with more “in‐bound links” is easier for Search Engines to find and to highlight to searchers (eg, it is moved up the list of results). 
+Links to your article can be made on social media sites and institutional websites. Google values websites ending in “.edu”.4 Writing a blog about your article is also a good idea. 
+If there is a Wikipedia page related to your work, add information about your article and a reference to it.4 Many RPTH authors and readers actively discuss RPTH articles on social media 
+sites like Twitter and LinkedIn. If you are interested in doing this, get started using our social media guide on the RPTH website
